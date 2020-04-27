@@ -1,4 +1,4 @@
-# React Native Chooser
+# React Native Single Select
 
 Simple DropDown menu for React Native App! Your Select Tag for React Native. Fully Customizable too.
 
@@ -24,7 +24,7 @@ npm i react-native-single-select --save
 
 ```js
 import React, { Component } from "react";
-import { Select, Option } from "react-native-chooser";
+import { Select, Option } from "react-native-single-select";
 
 import { AppRegistry, StyleSheet, Text, View } from "react-native";
 
