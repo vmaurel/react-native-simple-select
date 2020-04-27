@@ -1,5 +1,5 @@
 {
-  "name": "react-native-simple-select",
+  "name": "react-native-single-select",
   "version": "1.7.1",
   "description": "Simple Cross platform SELECT tag for React-Native",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vmaurel/react-native-simple-select.git"
+    "url": "git+https://github.com/vmaurel/react-native-single-select.git"
   },
   "keywords": [
     "react-native",
@@ -19,9 +19,9 @@
   "author": "Azhar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vmaurel/react-native-simple-select/issues"
+    "url": "https://github.com/vmaurel/react-native-single-select/issues"
   },
-  "homepage": "https://github.com/vmaurel/react-native-simple-selectr#readme",
+  "homepage": "https://github.com/vmaurel/react-native-single-selectr#readme",
   "peerDependencies": {
     "prop-types": "^15.5.10"
   },

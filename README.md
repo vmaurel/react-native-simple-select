@@ -4,20 +4,20 @@ Simple DropDown menu for React Native App! Your Select Tag for React Native. Ful
 
 ## Introduction
 
-React Native Simple Select is simple, customizable and easy to use dropdown in React Native. It has been tested on both Android and IOS and works like a charm.
+React Native Single Select is simple, customizable and easy to use dropdown in React Native. It has been tested on both Android and IOS and works like a charm.
 
 This component has been forked from react-native-chooser
 
 ## Installation
 
 ```
-yarn add react-native-simple-select
+yarn add react-native-single-select
 ```
 
 or
 
 ```
-npm i react-native-simple-select --save
+npm i react-native-single-select --save
 ```
 
 ## Usage
