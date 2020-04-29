@@ -1,6 +1,6 @@
 {
   "name": "react-native-single-select",
-  "version": "1.8.2",
+  "version": "1.8.4",
   "description": "Simple Cross platform managed SELECT tag for React-Native",
   "main": "index.js",
   "scripts": {
