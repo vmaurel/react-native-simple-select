@@ -6,7 +6,7 @@ Simple DropDown menu for React Native App! Your Select Tag for React Native. Ful
 
 React Native Single Select is simple, customizable and easy to use dropdown in React Native. It has been tested on both Android and IOS and works like a charm.
 
-This component has been forked from react-native-chooser
+This component has been forked from react-native-chooser and is modified to works as a controlled select
 
 ## Installation
 
@@ -31,13 +31,21 @@ import { AppRegistry, StyleSheet, Text, View } from "react-native";
 export default class AwesomeProject extends Component {
   constructor(props) {
     super(props);
-    this.state = { value: "Select Me Please" };
+    this.state = { value: "" };
   }
   onSelect(value, label) {
     this.setState({ value: value });
   }
 
   render() {
+    const data = [
+      { id: "", name: "" },
+      { id: "1", name: "Option 1" },
+      { id: "2", name: "Option 2" },
+      { id: "3", name: "Option 3" },
+      { id: "4", name: "Option 4" },
+      { id: "5", name: "Option 5" },
+    ];
     return (
       <View style={styles.container}>
         <Select
@@ -47,17 +55,9 @@ export default class AwesomeProject extends Component {
           textStyle={{}}
           backdropStyle={{ backgroundColor: "#d3d5d6" }}
           optionListStyle={{ backgroundColor: "#F5FCFF" }}
-        >
-          <Option value={{ name: "azhar" }}>Azhar</Option>
-          <Option value="johnceena">Johnceena</Option>
-          <Option value="undertaker">Undertaker</Option>
-          <Option value="Daniel">Daniel</Option>
-          <Option value="Roman">Roman</Option>
-          <Option value="Stonecold">Stonecold</Option>
-          <Option value="Rock">Rock</Option>
-          <Option value="Sheild">Sheild</Option>
-          <Option value="Orton">Orton</Option>
-        </Select>
+          data={data}
+          value={this.state.value}
+        />
       </View>
     );
   }
